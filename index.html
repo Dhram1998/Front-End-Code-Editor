@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Editors</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <h1>FRONT END CODE EDITOR <i class="fa-solid fa-laptop-code" style="color: #f5f5f5;"></i></h1>
+    <div class="mainarea">
+        <div class="editors">
+            <h2><i class="fa-brands fa-html5 fa-beat-fade" style="color: #f50a0a;"></i></i>HTML</h2>
+            <textarea id="html" placeholder="HTML" class="text"></textarea>
+        </div>
+        <div class="editors">
+            <h2><i class="fa-brands fa-css3-alt fa-beat-fade" style="color: #0df8f4;"></i></i>CSS</h2>
+            <textarea id="css" placeholder="CSS" class="text"></textarea>
+        </div>
+        <div class="editors">
+            <h2><i class="fa-brands fa-js fa-beat-fade" style="color: #fff705;"></i></i>JavaScript</h2>
+            <textarea id="js" placeholder="JavaScript" class="text"></textarea>
+        </div>
+    </div>
+    <div class="output">
+        <h2 class="output-text">Output</h2>
+        <iframe id="code"></iframe>
+    </div>
+    <script src="javascript.js"></script> 
+</body>
+</html>

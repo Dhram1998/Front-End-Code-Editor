@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+body{
+    text-align: center;
+    background-color: #232f3e;
+}
+h1{
+    color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: block;
+    font-size: 1.7em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.laptop-icon {
+    position: relative;
+    top: 3px;
+}
+
+*{
+    color: white;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.mainarea{
+    display: flex;
+    justify-content: space-around;
+}
+.editors{
+    background: linear-gradient(135deg, #d48080, #ffb88c);
+    width: 100%;
+    border-radius: 10px;
+    padding-top: 30px; 
+    padding-left: 3px;
+    padding-right: 3px;
+    margin: 0.1px;
+    margin-top: 10px;
+}
+.text{
+    width: 100%;
+    min-height: 350px;
+    overflow: scroll;
+    font-size: large;
+    background-color: #253237;
+    color : white;
+    outline: none;
+    border: none;
+    padding: 0.5rem;
+}
+iframe{
+    width: 100%;
+    height: 35em;
+    position: relativ;
+    background-color: #f4f4f9;
+    resize: both;
+}
+.output-text{
+    background: linear-gradient(135deg, #d48080, #ffb88c);
+    margin: 0px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding: 8px 25px;
+}
+.laptop-code-solid{
+    position: relative;
+    height: 25px;
+    width: 30px;
+    left: 5px
+}
